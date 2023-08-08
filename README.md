@@ -17,7 +17,7 @@ Clone the repository:
 
 ```bash
 https://github.com/micredis/hs-loan-calculator.git
-cd LoanCalculator
+cd hs-loan-calculator/task/creditcalc/
 ```
 
 Ensure you have Python 3.x installed:
@@ -41,11 +41,11 @@ python --version
 To calculate differentiated payments:
 
 ```bash
-python loan_calculator.py -t diff -r 1000000 -n 10 -i 10
+python creditcalc.py -t diff -r 1000000 -n 10 -i 10
 ```
 
 To calculate annuity payments:
 
 ```bash
-python loan_calculator.py -t annuity -r 1000000 -n 10 -i 10
+python creditcalc.py -t annuity -r 1000000 -n 10 -i 10
 ```
